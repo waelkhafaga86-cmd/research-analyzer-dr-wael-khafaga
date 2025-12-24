@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { ResearchAnalysis } from "../types";
+import { ResearchAnalysis } from "./types";
 
 export const analyzeResearchText = async (text: string): Promise<ResearchAnalysis> => {
   // للتشغيل المحلي، تأكد من وجود متغير بيئة باسم API_KEY

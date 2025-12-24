@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { AnalysisStatus } from '../types';
+import { AnalysisStatus } from './types';
 
 interface FileUploaderProps {
   onTextExtracted: (text: string) => void;

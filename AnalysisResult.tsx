@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ResearchAnalysis } from '../types';
+import { ResearchAnalysis } from './types';
 
 interface AnalysisResultProps {
   result: ResearchAnalysis;
